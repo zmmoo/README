@@ -1,0 +1,37 @@
+仓库　　
+start
+pull requessts
+fork 
+
+
+本地仓库：
+        git使用： 
+        git Repository  --> 暂存区　--> 工作区
+        git status  查看文件状态
+        提交到仓库：
+            git commit -m "描述"
+        基本信息设置：
+         设置用户名
+          git config --global user.name "zmmoo"
+         设置用户名邮箱：
+         git config --global user.email "805080817@qq.com"
+
+        创建文件夹：
+          使用git init 生产 .git
+
+        添加filename 到暂存区
+          git add filename
+        提交到仓库：
+        git commit -m "描述"
+
+
+        从git 中删除  删除文件rm filename--> git rm -->提交到仓库
+            git rm　filename
+
+远程仓库：
+       将本地仓库提交到远程仓库：
+                    git push 
+       将github 代码下载到本地：
+                    git clone + github上的地址
+	git config --list　查看参数
+	
