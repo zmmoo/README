@@ -35,6 +35,9 @@ fork
                     git clone + github上的地址
 	git config --list　查看参数
 	
+	
+	vim .git/config
+	
 	[remote "origin"]
 	url = https://zmmoo:meng12580me@github.com/zmmoo/README.git
 			//username:passwd//
